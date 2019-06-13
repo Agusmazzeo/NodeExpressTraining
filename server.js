@@ -15,7 +15,14 @@ app.use(express.static('public'));
 
 // http://expressjs.com/en/starter/basic-routing.html
 app.get("/", function (req, res) {
-  res.sendFile(__dirname + '/views/index.html');
+
+  let data2Send ={};
+  data2Send.ipaddress="200.68.126.34";
+  data2Send.languages=req.headers["Accept-Language"]; 
+  data2Send.system = req.headers["User-Agent"]; 
+  
+  res.send(JSON.stringify(data2Send));
+  
 });
 
 
