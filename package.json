@@ -1,0 +1,19 @@
+{
+  "name": "nodeexpresstraining",
+  "version": "1.0.0",
+  "description": "",
+  "main": "createJson.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agusmazzeo/NodeExpressTraining.git"
+  },
+  "author": "amazzeo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agusmazzeo/NodeExpressTraining/issues"
+  },
+  "homepage": "https://github.com/Agusmazzeo/NodeExpressTraining#readme"
+}
